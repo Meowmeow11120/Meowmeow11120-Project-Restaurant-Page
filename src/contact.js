@@ -1,8 +1,7 @@
 export default function createContact() {
     const container = document.querySelector('#content');
     const contactContainer = document.createElement('div');
-
-    // const contactText = document.createElement('div');
+    contactContainer.id='contactContainer';
     contactContainer.innerHTML = `
                   <h1> Phones</h1>
                   <h1> $ Oz92-12j-2jda1</h1>
